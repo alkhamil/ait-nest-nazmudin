@@ -4,8 +4,8 @@ import { OrderService } from './order.service';
 import { Order } from './entities/order.entity';
 import { OrderItem } from './entities/order-item.entity';
 import { OrderController } from './order.controller';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
-import { RolesGuard } from 'src/auth/roles.guard';
+import { RolesGuard } from 'src/common/guards/roles.guard';
+import { JwtAuthGuard } from 'src/common/guards/jwt-auth.guard';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Order, OrderItem])],

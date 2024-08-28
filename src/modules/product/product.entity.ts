@@ -1,5 +1,5 @@
-import { Cart } from 'src/cart/cart.entity';
-import { Category } from 'src/category/category.entity';
+import { Cart } from 'src/modules/cart/cart.entity';
+import { Category } from 'src/modules/category/category.entity';
 import {
   Entity,
   Column,

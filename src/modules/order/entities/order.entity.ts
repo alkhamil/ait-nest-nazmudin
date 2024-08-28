@@ -6,7 +6,7 @@ import {
   OneToMany,
 } from 'typeorm';
 import { OrderItem } from './order-item.entity';
-import { User } from 'src/user/user.entity';
+import { User } from 'src/modules/user/user.entity';
 
 @Entity()
 export class Order {

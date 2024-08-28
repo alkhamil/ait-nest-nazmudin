@@ -9,9 +9,9 @@ import {
 } from '@nestjs/common';
 import { CartService } from './cart.service';
 import { Cart } from './cart.entity';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
-import { Roles } from 'src/auth/roles.decorator';
-import { RolesGuard } from 'src/auth/roles.guard';
+import { RolesGuard } from 'src/common/guards/roles.guard';
+import { JwtAuthGuard } from 'src/common/guards/jwt-auth.guard';
+import { Roles } from 'src/common/decorators/roles.decorator';
 
 @Controller('cart')
 @UseGuards(JwtAuthGuard, RolesGuard)

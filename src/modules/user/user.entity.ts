@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 import * as bcrypt from 'bcryptjs';
-import { Cart } from 'src/cart/cart.entity';
-import { Order } from 'src/order/entities/order.entity';
+import { Cart } from 'src/modules/cart/cart.entity';
+import { Order } from 'src/modules/order/entities/order.entity';
 
 @Entity()
 export class User {
