@@ -30,6 +30,8 @@
 
 ```bash
 $ npm install
+
+$ change configuration database connection in app.module.ts
 ```
 
 ## Compile and run the project
@@ -38,11 +40,15 @@ $ npm install
 # development
 $ npm run start
 
+# run seed
+$ npm run seed
+
 # watch mode
 $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
 ```
 
 ## Run tests
