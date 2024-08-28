@@ -32,6 +32,8 @@
 $ npm install
 
 $ change configuration database connection in app.module.ts
+
+$ import file postman documentation /postman/NEST API NAZMUDIN.postman_collection.json
 ```
 
 ## Compile and run the project
