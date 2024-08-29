@@ -1,0 +1,5 @@
+
+> ait-nest-nazmudin-api@0.0.1 typeorm
+> ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:create src/migrations/
+
+Migration /Users/nazmudinalkhamil/Documents/Projects/ait-nest-nazmudin-api/src/1724901305576-migrations.ts has been generated successfully.

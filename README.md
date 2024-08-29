@@ -34,6 +34,12 @@ $ npm install
 $ change configuration database connection in app.module.ts
 
 $ import file postman documentation /postman/NEST API NAZMUDIN.postman_collection.json
+
+$ npm run typeorm migration:create src/migrations/TableTable
+
+$ npm run migration:run
+
+$ npm run migration:revert
 ```
 
 ## Compile and run the project

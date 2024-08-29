@@ -23,7 +23,7 @@ import { ConfigModule } from '@nestjs/config';
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
       autoLoadEntities: true,
-      synchronize: process.env.APP_ENV === 'development',
+      synchronize: false,
     }),
     UserModule,
     AuthModule,
